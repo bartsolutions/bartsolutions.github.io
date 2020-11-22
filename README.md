@@ -1,1 +1,1 @@
-Bart Solutions Technical Blog (Powered [pixyll.com](http://www.pixyll.com))
+Bart Solutions Technical Blog (Powered [pixyll.com](https://github.com/johno/pixyll))
