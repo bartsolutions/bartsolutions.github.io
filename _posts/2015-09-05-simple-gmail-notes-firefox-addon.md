@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simple Gmail Notes Firefox Addon
-date: 2020-11-20 19:22
+date: 2015-09-05
 summary: One week after the Chrome extension of simple gmail notes was released, I started to plan on porting of extension to Firefox.
 
 ---
