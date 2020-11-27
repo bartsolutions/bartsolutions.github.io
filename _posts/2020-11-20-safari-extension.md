@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Convert a Chrome Extension to a Safari Web Extenion
-date: 2020-11-20 19:22
 summary: A step by step guide to convert a Chrome extension to a Safari web extension, and upload to Mac App Store
 ---
 
