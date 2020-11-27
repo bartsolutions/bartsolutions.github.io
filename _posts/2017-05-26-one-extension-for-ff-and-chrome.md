@@ -87,7 +87,7 @@ getBrowser().runtime.sendMessage(message, function(response){
 *   `getSupportUrl`: not exactly program related, but it's probably not appropriate to lead the Firefox users to the supporting page of Chrome :P
 *   (Not shown above) One last thing is, the manifest key for options page in chrome is called `options_page`, and it's called `options_ui` for Firefox. So I basically put something like this in the `manifest.json` file:
 
-{% highlight %}
+{% highlight javascript %}
 "options\_page": "options.html",
 "options\_ui": {"page": "options.html"},
 {% endhighlight %}
