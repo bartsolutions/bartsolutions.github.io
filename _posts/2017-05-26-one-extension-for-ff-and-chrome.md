@@ -88,8 +88,8 @@ getBrowser().runtime.sendMessage(message, function(response){
 *   (Not shown above) One last thing is, the manifest key for options page in chrome is called `options_page`, and it's called `options_ui` for Firefox. So I basically put something like this in the `manifest.json` file:
 
 {% highlight javascript %}
-"options\_page": "options.html",
-"options\_ui": {"page": "options.html"},
+"options_page": "options.html",
+"options_ui": {"page": "options.html"},
 {% endhighlight %}
 
 And basically that's all.
