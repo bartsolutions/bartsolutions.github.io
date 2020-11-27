@@ -15,7 +15,7 @@ It turned out that the Firefox WebExtension development was **MUCH** easier than
 
 Eventually I merged extensions of Firefox and Chrome into **one single set of source code**. I believe my extension should be of medium complexity, but I got **almost** no pain during the migration.
 
-[![FF & Chrome in One Code - Page 1 (2)](http://walty8.com/wp-content/uploads/2017/05/FF-Chrome-in-One-Code-Page-1-2-1-1024x673.png)](http://walty8.com/wp-content/uploads/2017/05/FF-Chrome-in-One-Code-Page-1-2-1.png)
+[![FF & Chrome in One Code - Page 1 (2)](https://walty8.com/wp-content/uploads/2017/05/FF-Chrome-in-One-Code-Page-1-2-1-1024x673.png)](http://walty8.com/wp-content/uploads/2017/05/FF-Chrome-in-One-Code-Page-1-2-1.png)
 
 Pitfalls
 --------

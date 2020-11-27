@@ -20,15 +20,15 @@ Here is the URL for Google chrome extension:
 
 Some screenshots:
 
-![sgn-chrome-screen2](http://blog.walty8.com/wp-content/uploads/2015/08/sgn-chrome-screen2.jpg)
+![sgn-chrome-screen2](https://blog.walty8.com/wp-content/uploads/2015/08/sgn-chrome-screen2.jpg)
 
-![sgn-chrome-screen3](http://blog.walty8.com/wp-content/uploads/2015/08/sgn-chrome-screen3.jpg)
+![sgn-chrome-screen3](https://blog.walty8.com/wp-content/uploads/2015/08/sgn-chrome-screen3.jpg)
 
 And here is the full source code:
 
 [https://github.com/walty8/simple-gmail-notes.chrome](https://github.com/walty8/simple-gmail-notes.chrome)
 
-It's released under [GPLv3](http://www.gnu.org/licenses/gpl-3.0.en.html).
+It's released under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 Things I learned
 ----------------
@@ -37,7 +37,7 @@ It's verbose to tell the whole story, so here I just mark down what I have learn
 
 #### 1\. Basic structure:
 
-![Chrome JS Interactions - New Page](http://blog.walty8.com/wp-content/uploads/2015/08/Chrome-JS-Interactions-New-Page.png)
+![Chrome JS Interactions - New Page](https://blog.walty8.com/wp-content/uploads/2015/08/Chrome-JS-Interactions-New-Page.png)
 
 There are three types of scripts involved during development Google chrome extension. The naming could be arbitrary, here I used the convention inside the Google documentation.
 
@@ -65,7 +65,7 @@ s.src = chrome.extension.getURL('main.js');
 
 There are many different ways for the [communication](https://developer.chrome.com/extensions/messaging), here are the list of ways I preferred more:
 
-![Chrome Extension JS Structure - New Page](http://blog.walty8.com/wp-content/uploads/2015/08/Chrome-Extension-JS-Structure-New-Page.png)
+![Chrome Extension JS Structure - New Page](https://blog.walty8.com/wp-content/uploads/2015/08/Chrome-Extension-JS-Structure-New-Page.png)
 
 #### 3\. Debug _(Very convenient)_
 
