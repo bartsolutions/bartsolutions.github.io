@@ -30,14 +30,14 @@ Here we make a more detailed classification for those approaches **nowadays**, i
 5.  **Pure Native**
     
 
-[![mobile-application-technology-review-architecture](http://blog.walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Architecture-1024x585.png)](http://blog.walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Architecture.png)
+[![mobile-application-technology-review-architecture](https://walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Architecture-1024x585.png)](https://walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Architecture.png)
 
 Under each category, there are actually a bunch of technologies that could be used with, this diagram briefly illustrate the general picture. (It does not include ALL available technologies since there are too many of them, I just list out the most popular ones).
 
 Pure Website
 ============
 
-[![mobile-application-technology-review-pure-website-1](http://blog.walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Pure-Website-1.png)](http://blog.walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Pure-Website-1.png)
+[![mobile-application-technology-review-pure-website-1](https://walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Pure-Website-1.png)](https://walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Pure-Website-1.png)
 
 When using this technology, you basically build a regular website, using HTML + CSS + JS + backend language (Java, .NET, PHP, Python, Node.js or whatever). The user needs to be open a browser in order to view your content. While it's (very) unlikely to ask the user to type a long address in the mobile browser, you could provide some links in the email or ask the user to scan a QR code to access the URL.
 
@@ -110,7 +110,7 @@ Like the UI framework, you may use this in conjunction with traditional website 
 Webview (Embedded Browser) Hybrid
 =================================
 
-[![mobile-application-technology-review-webview-hybrid](http://blog.walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Webview-Hybrid.png)](http://blog.walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Webview-Hybrid.png)
+[![mobile-application-technology-review-webview-hybrid](https://walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Webview-Hybrid.png)](https://walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Webview-Hybrid.png)
 
 This technology means you are still writing a website using HTML + JS + CSS. However, the website is wrapped into the **skeleton** of an app. It looks like an app from outside, so your app would still be uploaded to app store and appear as an app icon in the device. When the app is opened, actually it would open an internal browser, and your content will be displayed from that browser.
 
@@ -165,7 +165,7 @@ Cordova is actually the foundation of a big eco-system, and people tend to build
 JS Engine Hybrid
 ================
 
-[![mobile-application-technology-review-js-engine-hybrid](http://blog.walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-JS-Engine-Hybrid.png)](http://blog.walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-JS-Engine-Hybrid.png)
+[![mobile-application-technology-review-js-engine-hybrid](https://walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-JS-Engine-Hybrid.png)](https://walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-JS-Engine-Hybrid.png)
 
 This is another interesting hybrid model, that means you still uses HTML + JS to write the application. However, for those technologies in this category, **they did not embed a web browser inside.**
 
@@ -207,7 +207,7 @@ This is actually quite similar to what happened during SPA page rendering, so wi
 Cross Platform Linkage Native
 =============================
 
-[![mobile-application-technology-review-cross-linkage](http://blog.walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Cross-Linkage.png)](http://blog.walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Cross-Linkage.png)
+[![mobile-application-technology-review-cross-linkage](https://walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Cross-Linkage.png)](https://walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Cross-Linkage.png)
 
 This is probably the most bizarre approach among the 5 technologies. The user is required to write a mobile app in a neutral language (non-objective C and non-java), and the project would then be compiled to a native of app of iOS and a native app of Android.
 
@@ -236,7 +236,7 @@ It's extremely hard to accomplish the trick, and hence very few companies provid
 Pure Native
 ===========
 
-[![mobile-application-technology-review-pure-native](http://blog.walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Pure-Native.png)](http://blog.walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Pure-Native.png)
+[![mobile-application-technology-review-pure-native](https://walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Pure-Native.png)](https://walty8.com/wp-content/uploads/2017/01/Mobile-Application-Technology-Review-Pure-Native.png)
 
 This is the most old fashioned approach to write apps. But in many cases, if your applications are enough complicated, this is actually the most safe way.
 
