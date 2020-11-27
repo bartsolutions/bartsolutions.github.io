@@ -11,11 +11,10 @@ As usual, the [Google result](https://www.google.com/search?client=firefox-b-d&q
 of any NPM related questions will bring you more yes-and-no answers, and
 leave you in further confusions and headaches.
 
-Well, life better be simpler
-![?](A%20Simple%20Way%20to%20Use%20NPM%20Library%20in%20Browser%20-%20Bart%20Solutions_files/1f642.svg)\
+Well, life better be simpler :)
 
 Say, we are going to use the NPM library of `email-js-mime-parser` and
-`buffer` in the browser, all we need to do is:\
+`buffer` in the browser, all we need to do is:
 
 ​1. install browserify tool
  {% highlight bash %}
