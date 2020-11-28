@@ -4,7 +4,7 @@ email:
 author:      Walty Yeung
 description: "Bart Solutions Technical Blog"
 baseurl:     ""
-url:         "https://www.bart.com.hk"
+url:         "https://tech.bart.com.hk"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
