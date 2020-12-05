@@ -4,7 +4,6 @@ email:
 author:      Walty Yeung
 description: "Bart Solutions Technical Blog"
 baseurl:     ""
-url:         "https://tech.bart.com.hk"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
@@ -121,6 +120,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
 # https://github.com/jekyll/jekyll/issues/2938
 exclude:
   - Gemfile
