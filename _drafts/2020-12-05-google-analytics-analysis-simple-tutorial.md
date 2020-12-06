@@ -5,20 +5,26 @@ summary: So after the tracking code is planted for a while, and you got a bunch 
 ---
 
 
-This article aims to provide some quick jump-in tips of GA to beginners, for those who want a complete step-by-step tutorial, you are advised to follow the [official GA course](https://analytics.google.com/analytics/academy/course/6).
+# Introduction
+This article aims to provide some quick jump-in tips to Google Analytics (GA) beginners, for those who want a complete step-by-step tutorial, you may want to check out the [official GA beginner course](https://analytics.google.com/analytics/academy/course/6).
 
-I believe most people will agree that, Google Analytics is a powerful analytics tool, which is natural as Google is one of most data dependent company. It’s probably safe to declare that Google is the top data expert company.
+Like many other Google tools, GA is extremely powerful, and yet the UI is not most trivial to get started with. That may explain why they even build a course for that. But once you got *some* sweet spot of GA, you could explore the remaining features yourself with relative ease.
 
-So to learn GA, or any data mining tool, there are two basic barriers that would stop the user.
+To learn GA, or any other data mining tool, there are two basic prerequisites that allow people kick start:
 
-1. You need a bunch of data for you to play around, fortunately GA provides a bunch of demo data for every user
+1. You need a bunch of data for you to play around
 2. You need a bunch of real data so it makes the whole thing more interesting
-3. You need to learn some basic concepts about how it works.
+
+For 1, fortunately GA provides a bunch of demo data for every new GA account
+
+Item 2 is actually most difficult part, this means unlike learn a new programming language, you actually need some *real* data to start making something userful in the real world.
 
 
-The implantation of tracking code is out of scope of this tutorial, but there are a bunch of tutorials outside, it's general extremely easy to plant one into your site. If you use a WP site, all it takes is to simply install a <a>plugin</a>, click a link and do a google login.
+Put a GA tracking code into a website is out of scope of this tutorial, but there are a [bunch of tutorials](https://www.google.com/search?q=how+to+add+a+google+analtycis+tracking+code) outside, it's extremely easy to plant one into your site. If you use a WP site, all it takes is to simply install a [wordpress plugin](https://www.google.com/search?q=wordpress+google+analytics), click a link and do a Google login.
 
-So, there are 4 main sections of GA
+# Main Sections
+
+There are four main sections of GA:
 
 1. Real time data
 2. Audience
@@ -28,17 +34,22 @@ So, there are 4 main sections of GA
 
 [IMAGE]
 
-The sections are more or less related, and directly related to the marketing concept. For easier understanding, I would  rearrange the section as following sequence:
+# Quick Takeaway 1
+- Overview of each section shows a consolidation of each section details
+- The dashboard is a further consolidation of all section overviews
+- You could always change the date range by clicking the top right corner of screen
 
-1. Real time data - which page of your site is being visited in the last 30 minutes, this is the most direct observation about how busy your server is right now. It's also useful to verify if the tracking code is correctly planted into the system. Normally you just wait for 24 hours and see if everything is correct :)\
+The four sections are more or less related, and directly related to marketing concepts. For easier understanding, the sections could be ordered into this way:
+
+1. Real time data - which page of your site has been visited since 30 minutes ago, this is the most direct indication of how busy your server is right now. It's also useful to verify if the tracking code is correctly planted into the system. You just don't wait for 24 hours and see if everything is correct :)\
  [IMAGE]
-2. Acquisition - how people actually get started to visit your site? (refererred from another site, organic search or campaigns?)\
+2. Acquisition - how people actually get started to visit your site? Is it refererred from another site, organic search or campaigns?\
  [IMAGE]
-3. Behaviour - What did the people do AFTER they got into your site (did they exist immediately, did they get lost?)\
+3. Behaviour - Where do the people visit after they entered your site? Do they exit immediately? Do they get lost?
  [IMAGE]
-4. Audience - How many are new users and how many are returned users? Who are all those users（user location down to city, browser model) You could learn more if you <a>enabled demographic models</a>. But make sure you are the users know beforehand.\
+4. Audience - Who are those visitors? How many of them are new users and how many are returned users? You could learn more if you [enabled audience demographics](https://support.google.com/analytics/answer/2799357?hl=en). It's a bit aggresive, and they are never turned on in our [Simple CRM products](https://www.simplemobilecrm.com). But if you do, please make sure you notice the users beforehand, this is explictly required by Google.\
  [IMAGE]
-5. Conversions - How did they visitor contibute to your revenue, exactly? It's normally done by set up some critical checkout points (goals), e.g. user reached shopping card page,  check out page and and finished payments, or just finished sign up process.\
+5. Conversions - How do the visitors contibute to your revenue? You could set up some critical check points (goals) at different pages of your site, e.g. when user reached shopping card page,  check out page, payment succesful page, or sign up completion page.\
  [IMAGE]
 
 Except section 1 (real time data), all sections allows an selection of time period at the top right corner of page. So, you could easily find out the new / returning users within 1 week, 1 month or 3 months.
