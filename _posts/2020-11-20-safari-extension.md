@@ -103,5 +103,4 @@ Here we use [Simple Gmail Notes](https://www.bart.com.hk/simple-gmail-notes/) ([
 
 9. Upload all the screenshots and add descriptions to App Store Connect
 
-10. You are now good to start a review process.
-
+10. You are now good to start a review process, good luck :)
