@@ -81,6 +81,7 @@ dimension of the table. (Yeap, it's not that trivial)
 ![](/images/ga-basics/secondary-dimension-city.png)
 4. Now we could see city of each visitor who arrived our homepage URL, and how 
 long they stayed on the page. This should help you with the campagin budget allocation.
+![](/images/ga-basics/basic-play.png)
 
 
 ## Dig a Bit Deeper
