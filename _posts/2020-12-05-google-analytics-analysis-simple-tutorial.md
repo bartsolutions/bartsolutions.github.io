@@ -15,7 +15,7 @@ To learn GA, or any other data mining tool, there are two basic prerequisites th
 1. You need a bunch of data for you to play around
 2. You need a bunch of real data so it makes your study *interesting*
 
-For item 1, fortunately GA provides a bunch of demo data for every new GA account
+For item 1, fortunately GA provides a bunch of demo data for everyone, free.
 
 **Click the link below to get the access to the GA demo data**
  <https://analytics.google.com/analytics/web/demoAccount>
