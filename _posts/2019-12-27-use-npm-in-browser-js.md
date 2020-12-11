@@ -43,13 +43,18 @@ browserify main.js -o bundle.js
 
 ​5. use `bundle.js` in normal webpage, and you could use `parseEmail` and `Buffer` in the browser side JS:
 {% highlight html %}
+{% raw %}
 <html>
 <head>
-<script src='bundle.js'>
-<script>console.log(window.parseEmail);console.log(window.Buffer);</script>
+<script src='bundle.js'></script>
+<script>
+console.log(window.parseEmail);
+console.log(window.Buffer);
+</script>
 </head>
 <body></body>
 </html>
+{% endraw %}
 {% endhighlight %}
 
  
