@@ -102,3 +102,9 @@ Here we use [Simple Gmail Notes](https://www.bart.com.hk/simple-gmail-notes/) ([
 
 10. You are now good to start a review process.
 
+
+**Update 2020-12-30:** After a few weeks of back and forth, we finally launched the app into [Mac Extension Store](https://apps.apple.com/hk/app/simple-notes-for-gmail/id1541594492?l=en&mt=12). Some major comments from Apple:
+1. Cannot have any donation related content, unless you are a non-profit organization
+2. Cannot have any payment, unless via Apple gateway
+3. Cannot mention COVID 19, unless you are officially granted
+4. Extension name must be changed from 'Simple Gmail Notes' to 'Simple Notes for Gmail'
