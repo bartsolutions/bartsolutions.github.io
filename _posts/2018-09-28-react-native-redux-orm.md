@@ -1,6 +1,6 @@
 ---
 layout: post
-title: react native tutorial with react-navigation, redux and redux-orm
+title: React Native Tutorial with React-Navigation, Redux and Redux-ORM
 date: 2018-09-28
 summary: A detailed example to intergration react native, react navigation, redux and redux-orm
 ---
