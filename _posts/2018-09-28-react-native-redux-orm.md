@@ -64,7 +64,8 @@ To get the general idea of this app, let's take a look at the `AppNavigator.js` 
 
 [![](https://www.bart.com.hk/wp-content/uploads/2018/09/Redux-Page-4-1.png)](https://www.bart.com.hk/wp-content/uploads/2018/09/Redux-Page-4-1.png)
 
-<pre>import React from 'react';
+{% highlight javascript %}
+import React from 'react';
 import {
   createStackNavigator, createBottomTabNavigator, createDrawerNavigator
 } from 'react-navigation';
@@ -138,7 +139,7 @@ export const AppNavigator = createDrawerNavigator(
 
 export default AppNavigator;
 
-</pre>
+{% endhighlight %}
 
 **Here's how the navigation looks like:**
 
@@ -152,7 +153,8 @@ Our app has two models, which are `Movie` and `MovieComment`, and they are conne
 
 Let's take a quick look at `models.js`
 
-<pre>import { fk, attr, Model } from 'redux-orm';
+{% highlight javascript %}
+import { fk, attr, Model } from 'redux-orm';
 
 class Movie extends Model {
   toString() {
@@ -194,7 +196,7 @@ MovieComment.fields = {
 };
 
 export { Movie, MovieComment };
-</pre>
+{% endhighlight %}
 
 ### Data Binding
 
@@ -204,7 +206,8 @@ Next thing we need to do is to **bind** the `models` with the `scenes`, here are
 
 #### First, create selectors for the scenes (`selectors.js`):
 
-<pre>const dbStateSelector = state => state.data;
+{% highlight javascript %}
+const dbStateSelector = state => state.data;
 
 // movieListSelector will be directly used in mapStateToProps of redux
 const movieListSelector = createSelector(
@@ -237,11 +240,12 @@ const movieDetailSelector = createSelector(
   }
 );
 
-</pre>
+{% endhighlight %}
 
 #### Now, connect `movieListSelector` to `MovieList` sence (`movielist.js`)
 
-<pre>class MovieList extends React.Component {
+{% highlight javascript %}
+class MovieList extends React.Component {
   renderItem = ({ item }) => {
     const { navigate } = this.props.navigation;
     return (
@@ -284,11 +288,13 @@ function mapStateToProps(state, ownProps) {
 }
 
 export default connect(mapStateToProps)(MovieList);
-</pre>
+{% endhighlight %}
 
 #### Also connect selector to `MovieDetail` sence (`movieDetail.js`)
 
-<pre>class MovieDetail extends React.Component {
+{% highlight javascript %}
+{% raw %}
+class MovieDetail extends React.Component {
   {/* ... */}
 
   renderMovieDetail = () => {
@@ -329,7 +335,8 @@ function mapStateToProps(state, ownProps) {
 }
 
 export default connect(mapStateToProps)(MovieDetail);
-</pre>
+{% endraw %}
+{% endhighlight %}
 
 #### As we can see:
 
@@ -347,7 +354,8 @@ How are we going to do that? Of course, use the **`reducers`**
 
 ### Let's create a reducer in `src/data/reducer.js` first:
 
-<pre>export const reducer = (dbState, action) => {
+{% highlight javascript %}
+export const reducer = (dbState, action) => {
   let sess = orm.session(dbState);
 
     // Session-specific Models are available
@@ -377,13 +385,14 @@ How are we going to do that? Of course, use the **`reducers`**
 
   return sess.state;
 };
-</pre>
+{% endhighlight %}
 
 ### Now `dispatch` those actions in different scenes:
 
 ###### For `Movie` Creation or Update in `createOrEditMovie.js`
 
-<pre>export default class createOrEditMovie extends Component {
+{% highlight javascript %}
+export default class createOrEditMovie extends Component {
   constructor() {
     super();
     this.state = {
@@ -420,7 +429,7 @@ How are we going to do that? Of course, use the **`reducers`**
 
   {/* ... */}
 }
-</pre>
+{% endhighlight %}
 
 So we can do this:
 
@@ -428,7 +437,8 @@ So we can do this:
 
 ###### For `Movie` Deletion in `movieList.js`
 
-<pre class="">class MovieList extends React.Component {
+{% highlight javascript %}
+class MovieList extends React.Component {
   deleteMovie = (item) => {
     Alert.alert(
       'Are you sure to delete this?',
@@ -449,7 +459,7 @@ So we can do this:
 
   {/* ... */}
 }
-</pre>
+{% endhighlight %}
 
 So we can do this:
 
@@ -457,7 +467,8 @@ So we can do this:
 
 ###### Create `MovieComment` in `movideDetail.js`
 
-<pre>class MovieDetail extends React.Component {
+{% highlight javascript %}
+class MovieDetail extends React.Component {
   toggleCommentDialog = (text) => {
     this.setState({ promotVisible: !this.state.promotVisible });
     const { dispatch } = this.props.navigation;
@@ -472,7 +483,7 @@ So we can do this:
 
   {/* ... */}
 }
-</pre>
+{% endhighlight %}
 
 So we can do this:
 
