@@ -4,7 +4,7 @@ title: Convert a Chrome Extension to Safari Web Extension
 summary: A step by step guide to convert a Chrome extension to a Safari web extension, and upload to Mac App Store
 ---
 
-Last Update: 2020-12-05
+Last Update: 2021-01-12
 
 **Part A: Safari Web Extension Development**
 
@@ -51,6 +51,8 @@ Here we use [Simple Gmail Notes](https://www.bart.com.hk/simple-gmail-notes/) ([
 7. To check the background script, in the Safari, click Develop -> Web Extension Background Pages\
  \
  ![](/images/safari-extension/1_Q-PT2K0Syj9RgapsyptoNA.png)
+
+8. Tip: while [WebExtensions API](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API) is an open standard, Apple has not (yet) implemented the full spec. You could find [limitations of current phase here](https://developer.apple.com/documentation/safariservices/safari_web_extensions/assessing_your_safari_web_extension_s_browser_compatibility).
 
 <hr/>
 **Part B: Distribute Safari Web Extension to App Store**
