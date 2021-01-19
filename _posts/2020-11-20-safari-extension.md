@@ -8,7 +8,7 @@ Last Update: 2021-01-12
 
 **Part A: Safari Web Extension Development**
 
-Here we use [Simple Gmail Notes](https://www.bart.com.hk/simple-gmail-notes/) ([Source Code](https://github.com/bartsolutions/simple-gmail-notes.chrome)) for the example.
+Here we use [Simple Gmail Notes](https://chrome.google.com/webstore/detail/simple-gmail-notes/jfjkcbkgjohminidbpendlodpfacgmlm?hl=en) ([Source Code](https://github.com/bartsolutions/simple-gmail-notes.chrome)) for the example.
 
 1. Make sure you have Safari 14 and Xcode 12 installed
 
